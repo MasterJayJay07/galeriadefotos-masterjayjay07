@@ -18,9 +18,8 @@ section {
     justify-content: space-between;
 }
 img:hover {
-    width: 200px;
-    height: 290px;
-    border: 15px inset #fff;
+    transform: scale(1.5);
+    border: 10px inset #fff;
 }
 img {
     width: 120px;
