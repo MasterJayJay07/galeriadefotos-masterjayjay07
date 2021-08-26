@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Pacifico, cursive.;
+}
+header {
+    font-size: 40px;
+    font-family: URW Chancery L, cursive;
+    font-weight: bold;
+    text-align: center;
+}
+section {
+    width: 100%;
+    background-color: rgb(134, 57, 57);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img:hover {
+    width: 200px;
+    height: 290px;
+    border: 15px inset #fff;
+}
+img {
+    width: 120px;
+    height: 200px;
+    border: 8px inset #fff;
+}
+figcaption {
+    text-align: center;
+    color: darkred;
+    background-color: #fff;
+    padding: 5px;
+}
